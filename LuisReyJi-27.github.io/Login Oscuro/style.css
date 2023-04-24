@@ -1,0 +1,127 @@
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/Adams_The_Tetons_and_the_Snake_River.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    align-items: center; 
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+
+span {
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    text-shadow: 2px 2px 3px #000000;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+i {
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background-color: rgba(255,2555,255, 0.4);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0,0,0, 0.2);
+} 
+
+.bottom{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+#check {
+    margin-right: 4px;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer{
+    width: auto;
+    height: 80px;
+    background-color: #000000;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 2px 0px;
+    padding: 30px 0px;
+}
