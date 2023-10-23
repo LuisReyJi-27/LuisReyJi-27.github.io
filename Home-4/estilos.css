@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1466px;
+	margin: auto;
+}
+
+.card-header {
+    background-color: #0055b8;
+    color: #fff;
+    border-radius: 8px 8px 0 0 !important;
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+}
+
+.icon-nx {
+    width: 1.5rem;
+}
+
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	cursor: default;
+	height: 830px;
+	border: #0055b8 solid 2px;
+}
+
+.mil-medios{
+	width:220px; 
+	height:220px; 
+	background-color: #ff4d00; 
+	border-radius: 50%; 
+	margin: 36px 27%;
+	font-family: 'Raleway' sans-serif;
+}
+
+.card img{
+	width: 15%;
+	height: 24px;
+}
+
+.condiciones p{
+	font-size: 10px; 
+	text-align:left; 
+	padding-top: 10px; 
+	color: #0055b8; 
+	font-weight: bold; 
+	padding-left: 35px;
+	width: 94%;
+}
+
+.docientos-tb{
+	display: flex; 
+	justify-content: center; 
+	align-content: center; 
+	padding: 0px 60px 9px 60px;
+}
+.card .contenido-card{
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+}
+
+.footer {
+    padding: 0px 0;
+    background-color: #ff4d00;
+	margin-top: 90px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 150px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:860px){
+	.container-card{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+		flex-wrap: wrap;
+	}
+
+	.mil-medios{
+		width: 220px;
+			height: 220px;
+			background-color: #ff4d00;
+			border-radius: 50%;
+			margin: 36px 36%;
+	}
+
+	.contenido-card {
+		display:flex;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+
+	.cobertura-medios {
+		display: flex;
+    	align-content: center;
+		padding: 69px 75px;
+
+	}
+
+	.footer-content {
+		padding: 30px;
+		flex-direction: column;
+		text-align: center;
+		justify-content:left;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
+/*-- Tablet --*/
+
+@media  (max-width:860px) {
+	
+	.docientos-tb{
+		display: flex; 
+		justify-content: center; 
+		align-content: center; 
+		padding: 0px 107px 9px 60px;
+	}
+	
+	.condiciones p{
+		font-size: 10px; 
+		text-align:left; 
+		padding-top: 10px; 
+		color: #0055b8; 
+		font-weight: bold; 
+		padding-left: 193px;
+		width: 75%;
+	}
+	.card{
+		width: 100%;
+		margin: 20px;
+		border-radius: 10px;
+		overflow: hidden;
+		background:#fff;
+		box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+		cursor: default;
+		height: 880px;
+		border: #0055b8 solid 2px;
+	}
+
+	.cobertura-medios{
+		padding: 268px;
+	}
+}
+
+/*-- Movil --*/
+@media (max-width: 426px){
+
+	.card{
+		margin: 15px;
+		flex-wrap: wrap; }
+
+
+	.mil-medios{
+		width: 220px;
+		height: 220px;
+		background-color: #ff4d00;
+		border-radius: 50%;
+		margin: 36px 20%;
+		}
+
+	.contenido-card {
+		display:flex;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.condiciones p{
+		font-size: 10px; 
+		text-align:left; 
+		padding-top: 10px; 
+		color: #0055b8; 
+		font-weight: bold; 
+		padding-left: 30px;
+		width: 90%;
+	}
+
+	.cobertura-medios {
+		display: flex;
+    	align-content: center;
+		padding: 69px 75px;
+
+	}
+
+	.footer-content {
+		padding: 30px;
+		flex-direction: column;
+		text-align: center;
+		justify-content:left;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
